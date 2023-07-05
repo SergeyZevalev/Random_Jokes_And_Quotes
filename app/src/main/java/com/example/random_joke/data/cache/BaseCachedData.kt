@@ -20,4 +20,5 @@ class BaseCachedData<E> : CachedData<E> {
     override suspend fun change(changeStatus: ChangeStatus<E>): CommonDataModel<E> {
         return cached.change(changeStatus)
     }
+
 }

@@ -37,6 +37,7 @@ abstract class BaseViewModel<T>(
 
     override fun changeItemStatus(id: T) {
         viewModelScope.launch(dispatcher) {
+            interactor.changeFavorites().map().show(communication)
             interactor.removeItem(id)
             showList()
         }

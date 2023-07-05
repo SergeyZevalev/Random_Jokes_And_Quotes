@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Jokes &amp; Quotes</string>
+    <string name="get_joke">Get Joke</string>
+    <string name="get_quote">Get Quote</string>
+    <string name="no_connection">No Connection!</string>
+    <string name="service_unavailable">Service Unavailable!</string>
+    <string name="show_favorite_joke">Show favorite joke</string>
+    <string name="show_favorite_quote">Show favorite quote</string>
+    <string name="no_cached_data">No cached data!</string>
+    <string name="generic_fail_message">Joke generation failed!</string>
+    <string name="remove_from_favorites">Remove from favorites?</string>
+    <string name="yes">Yes</string>
+    <string name="jokes">Jokes</string>
+    <string name="quotes">Quotes</string>
+</resources>
